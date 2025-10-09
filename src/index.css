@@ -1,0 +1,24 @@
+body{      
+  background-color: rgb(243, 244, 246);      
+ }     
+ .footer{      
+  position: fixed;      
+  bottom: 0;     
+  height: 30px;      
+  width: 100%;      
+  background-color: #212529;      
+  color: #fff;  
+  font-size: 14px;
+}
+.likes {
+  font-size: 10px;
+  margin: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.authors {
+  font-size: 12px;
+  margin: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+}
