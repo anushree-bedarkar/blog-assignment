@@ -132,6 +132,12 @@
       "email": "anushree@abc.com",
       "password": "abc123",
       "name": "Anushree Bedarkar"
+    },
+    {
+      "id": "53d2",
+      "email": "newuser@test.com",
+      "password": "test123",
+      "name": "New User"
     }
   ]
 }

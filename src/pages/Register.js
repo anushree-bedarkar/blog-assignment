@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './Register.css';
+import { useNavigate } from 'react-router-dom';
 
 export function Register() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -26,12 +29,28 @@ export function Register() {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length === 0) {
-      setSubmitted(true);
-      console.log('Form submitted:', formData);
+      try {
+        await axios.post('http://localhost:8000/users', {
+          email: formData.email,
+          password: formData.password,
+          name: formData.username,
+        });
+        setSubmitted(true);
+        setFormData({
+          username: '',
+          email: '',
+          password: '',
+          confirmPassword: '',
+        });
+
+        navigate("/");
+      } catch (error) {
+        console.error('Error saving user:', error);
+      }
     } else {
       setErrors(validationErrors);
       setSubmitted(false);
