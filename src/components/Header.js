@@ -3,7 +3,6 @@ import { useContext } from "react";
 
 export const Header = () => {
   const {user} = useContext(AuthContext);
-  console.log(user);
   
   return (
     <>
@@ -19,15 +18,23 @@ export const Header = () => {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-       <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/login">Sign in</a>
+        {
+          user ? <>
+          <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/create">Write</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/logout">Logout</a>
+        </li></>
+          :
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/login">Sign in</a>
+          </li>
+        }
+       
+        
        
       </ul>
-      <form className="d-flex" role="search">
-       
-        <a href="/addBlog"className="btn btn-outline-light" type="submit">Write</a>
-      </form>
     </div>
   </div>
 </nav>

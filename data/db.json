@@ -1,38 +1,137 @@
 {
-    "posts": [
-      {
-        "id": "1",
-        "title": "First Post",
-        "content": "Description 1",
-        "author": "anushree@abc.com",
-        "likes": 100
-      },
-      {
-        "id": "2",
-        "title": "Second Post",
-        "content": "Description 2",
-        "author": "Anushree Bedarkar",
-        "likes": 200
-      }
-    ],
-    "comments": [
-      {
-        "id": "1",
-        "text": "Comment 1",
-        "postId": "1"
-      },
-      {
-        "id": "2",
-        "text": "Comment 2",
-        "postId": "1"
-      }
-    ],
-    "users": [
-      {
-        "id": "1",
-        "email": "anushree@abc.com",
-        "password": "abc123",
-        "name": "Anushree Bedarkar"
-      }
-    ]
-  }
+  "posts": [
+    {
+      "id": "101",
+      "title": "The Rise of Serverless Architecture",
+      "content": "Serverless computing allows developers to build and run applications without managing servers. It offers scalability, reduced costs, and faster deployment cycles.",
+      "author": "anushree@abc.com",
+      "likes": 0,
+      "likedBy": [],
+      "category": "Technology"
+    },
+    {
+      "id": "102",
+      "title": "Mindful Living: A Guide to Daily Wellness",
+      "content": "Mindfulness helps improve mental clarity and emotional balance. This guide explores daily practices like meditation, journaling, and intentional breathing.",
+      "author": "anushree@abc.com",
+      "likes": 0,
+      "likedBy": [],
+      "category": "Health & Wellness"
+    },
+    {
+      "id": "103",
+      "title": "Exploring the Hidden Gems of Kerala",
+      "content": "Kerala’s lush landscapes, tranquil backwaters, and rich culture make it a top travel destination. Discover offbeat locations beyond the tourist trail.",
+      "author": "anushree@abc.com",
+      "likes": 0,
+      "likedBy": [],
+      "category": "Travel"
+    },
+    {
+      "id": "104",
+      "title": "React vs Angular: Which One Should You Learn?",
+      "content": "React offers flexibility and a component-based architecture, while Angular provides a full-fledged     framework. Learn which suits your goals and style.",
+      "author": "anushree@abc.com",
+      "likes": 0,
+      "likedBy": [],
+      "category": "Education"
+    },
+    {
+      "id": "105",
+      "title": "Minimalist Living: Less Is More",
+      "content": "Minimalism is about focusing on what truly matters. Learn how to simplify your space, reduce stress, and live with intention.",
+      "author": "anushree@abc.com",
+      "likes": 0,
+      "likedBy": [],
+      "category": "Lifestyle"
+    },
+    {
+      "id": "1",
+      "title": "First Post",
+      "content": "Description 1",
+      "author": "anushree@abc.com",
+      "likes": 102,
+      "likedBy": [
+        "user1@example.com",
+        "user2@example.com",
+        "anushree@abc.com"
+      ],
+      "category": "Lifestyle"
+    },
+    {
+      "id": "2",
+      "title": "Second Post",
+      "content": "Description 2",
+      "author": "Anushree Bedarkar",
+      "likes": 201,
+      "likedBy": [
+        "user1@example.com",
+        "user2@example.com"
+      ],
+      "category": "Lifestyle"
+    },
+    {
+      "id": "6a59",
+      "title": "title",
+      "content": "desc",
+      "likes": 3,
+      "author": "anushree@abc.com",
+      "likedBy": [
+        "anushree@abc.com"
+      ],
+      "category": "Lifestyle"
+    },
+    {
+      "id": "1ff4",
+      "title": "new",
+      "content": "desc",
+      "likes": 1,
+      "author": "Anushree Bedarkar",
+      "likedBy": [
+        "anushree@abc.com"
+      ],
+      "category": "Education"
+    },
+    {
+      "id": "03eb",
+      "title": "java",
+      "content": "java8 tutorial",
+      "category": "Technology",
+      "likes": 0,
+      "author": "Anushree Bedarkar"
+    },
+    {
+      "id": "4931",
+      "title": "IT",
+      "content": "desc",
+      "category": "Lifestyle",
+      "likes": 0,
+      "author": "Anushree Bedarkar"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "Comment 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "Comment 2",
+      "postId": "1"
+    },
+    {
+      "id": "6d7f",
+      "text": "new comment",
+      "postId": "1ff4"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "anushree@abc.com",
+      "password": "abc123",
+      "name": "Anushree Bedarkar"
+    }
+  ]
+}
