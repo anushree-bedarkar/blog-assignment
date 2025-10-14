@@ -45,7 +45,7 @@ export const PostDetails = () => {
     const handleLike = async (e) => {
         e.preventDefault(); 
         if (!user?.email) {
-            alert("Please sign in first.");
+            setErrorLike("Please sign in first.");
             return;
         }
         
