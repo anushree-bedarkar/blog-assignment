@@ -74,7 +74,7 @@
       "id": "6a59",
       "title": "title",
       "content": "desc",
-      "likes": 3,
+      "likes": 10,
       "author": "anushree@abc.com",
       "likedBy": [
         "anushree@abc.com"
@@ -85,11 +85,9 @@
       "id": "1ff4",
       "title": "new",
       "content": "desc",
-      "likes": 1,
-      "author": "Anushree Bedarkar",
-      "likedBy": [
-        "anushree@abc.com"
-      ],
+      "likes": 0,
+      "author": "New User",
+      "likedBy": [],
       "category": "Education"
     },
     {
@@ -98,7 +96,8 @@
       "content": "java8 tutorial",
       "category": "Technology",
       "likes": 0,
-      "author": "Anushree Bedarkar"
+      "author": "New User",
+      "likedBy": []
     },
     {
       "id": "4931",
@@ -106,7 +105,8 @@
       "content": "desc",
       "category": "Lifestyle",
       "likes": 0,
-      "author": "Anushree Bedarkar"
+      "author": "New User",
+      "likedBy": []
     }
   ],
   "comments": [
@@ -124,6 +124,11 @@
       "id": "6d7f",
       "text": "new comment",
       "postId": "1ff4"
+    },
+    {
+      "id": "8e4c",
+      "text": "",
+      "postId": "2"
     }
   ],
   "users": [
