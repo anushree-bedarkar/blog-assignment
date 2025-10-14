@@ -85,9 +85,11 @@
       "id": "1ff4",
       "title": "new",
       "content": "desc",
-      "likes": 0,
+      "likes": 1,
       "author": "New User",
-      "likedBy": [],
+      "likedBy": [
+        "anushree@abc.com"
+      ],
       "category": "Education"
     },
     {
