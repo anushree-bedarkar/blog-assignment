@@ -23,3 +23,6 @@ body{
   display: flex;
   justify-content: space-between;
 }
+.container {
+  padding-bottom: 100px; 
+}

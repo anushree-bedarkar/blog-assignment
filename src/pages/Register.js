@@ -47,7 +47,7 @@ export function Register() {
           confirmPassword: '',
         });
 
-        navigate("/");
+        navigate("/login");
       } catch (error) {
         console.error('Error saving user:', error);
       }

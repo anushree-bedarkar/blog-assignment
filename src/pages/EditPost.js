@@ -16,7 +16,7 @@ export const EditPost = () => {
  
   const handleEdit = async (e) => {
     e.preventDefault();
-    const updatedPost = { ...post, title, content, category };
+    const updatedPost = { ...post, title, content, category, date: new Date().toISOString() };
     const result = await trigger(
       `http://localhost:8000/posts/${post.id}`,
       "PUT",

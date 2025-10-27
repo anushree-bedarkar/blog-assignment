@@ -2,6 +2,7 @@ import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTriggerApi } from "../hooks/UseTriggerApi";
 import { AuthContext } from "../components/AuthContext";
+
  
 export const CreatePost = () => {
   const { user } = useContext(AuthContext);
@@ -19,6 +20,7 @@ export const CreatePost = () => {
       category,
       likes: 0,
       author: user?.name || "Anonymous",
+      date: new Date().toISOString()
     };
     const result = await trigger(
       "http://localhost:8000/posts",

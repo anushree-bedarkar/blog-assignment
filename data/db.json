@@ -7,7 +7,8 @@
       "author": "anushree@abc.com",
       "likes": 0,
       "likedBy": [],
-      "category": "Technology"
+      "category": "Technology",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "102",
@@ -16,7 +17,8 @@
       "author": "anushree@abc.com",
       "likes": 0,
       "likedBy": [],
-      "category": "Health & Wellness"
+      "category": "Health & Wellness",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "103",
@@ -25,7 +27,8 @@
       "author": "anushree@abc.com",
       "likes": 0,
       "likedBy": [],
-      "category": "Travel"
+      "category": "Travel",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "104",
@@ -34,7 +37,8 @@
       "author": "anushree@abc.com",
       "likes": 0,
       "likedBy": [],
-      "category": "Education"
+      "category": "Education",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "105",
@@ -43,7 +47,8 @@
       "author": "anushree@abc.com",
       "likes": 0,
       "likedBy": [],
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "1",
@@ -56,19 +61,21 @@
         "user2@example.com",
         "anushree@abc.com"
       ],
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "2",
       "title": "Second Post",
-      "content": "Description 2",
+      "content": "new Description 2",
       "author": "Anushree Bedarkar",
       "likes": 201,
       "likedBy": [
         "user1@example.com",
         "user2@example.com"
       ],
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "date": "2025-10-17T03:17:12.035Z"
     },
     {
       "id": "6a59",
@@ -79,7 +86,8 @@
       "likedBy": [
         "anushree@abc.com"
       ],
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "1ff4",
@@ -90,7 +98,8 @@
       "likedBy": [
         "anushree@abc.com"
       ],
-      "category": "Education"
+      "category": "Education",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
       "id": "03eb",
@@ -99,38 +108,73 @@
       "category": "Technology",
       "likes": 0,
       "author": "New User",
-      "likedBy": []
+      "likedBy": [],
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
-      "id": "4931",
-      "title": "IT",
-      "content": "desc",
-      "category": "Lifestyle",
+      "id": "f4de",
+      "title": "React",
+      "content": "React tutorial",
+      "category": "Technology",
+      "likes": 1,
+      "author": "Anushree Bedarkar",
+      "likedBy": [
+        "anushree@abc.com"
+      ],
+      "date": "2025-10-17T03:09:45.350Z"
+    },
+    {
+      "id": "6f81",
+      "title": "new Post ",
+      "content": "post description",
+      "category": "Technology",
       "likes": 0,
-      "author": "New User",
-      "likedBy": []
+      "author": "Anushree Bedarkar",
+      "date": "2025-10-17T03:15:44.718Z"
     }
   ],
   "comments": [
     {
       "id": "1",
       "text": "Comment 1",
-      "postId": "1"
+      "postId": "1",
+      "date": "2025-10-16T14:30:00Z"
     },
     {
       "id": "2",
       "text": "Comment 2",
-      "postId": "1"
+      "postId": "1",
+      "date": "2025-10-16T14:35:00Z"
     },
     {
-      "id": "6d7f",
-      "text": "new comment",
-      "postId": "1ff4"
+      "id": "71ce",
+      "text": "new Comment",
+      "postId": "1",
+      "date": "2025-10-17T03:09:45.350Z"
     },
     {
-      "id": "8e4c",
-      "text": "",
-      "postId": "2"
+      "id": "6ee2",
+      "text": "new Comment",
+      "postId": "1",
+      "date": "2025-10-17T03:09:53.583Z"
+    },
+    {
+      "id": "755f",
+      "text": "new Comment222",
+      "postId": "1",
+      "date": "2025-10-17T03:09:59.149Z"
+    },
+    {
+      "id": "c4ab",
+      "text": "new Comment123",
+      "postId": "1",
+      "date": "2025-10-17T03:10:06.886Z"
+    },
+    {
+      "id": "bcef",
+      "text": "new Comment latest",
+      "postId": "1",
+      "date": "2025-10-17T10:48:30.365Z"
     }
   ],
   "users": [
@@ -141,10 +185,10 @@
       "name": "Anushree Bedarkar"
     },
     {
-      "id": "53d2",
-      "email": "newuser@test.com",
+      "id": "6eee",
+      "email": "anu@abc.com",
       "password": "test123",
-      "name": "New User"
+      "name": "Anu B"
     }
   ]
 }
